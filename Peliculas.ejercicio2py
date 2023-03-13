@@ -1,0 +1,25 @@
+class Peliculas:
+    def __init__(self, nombre,):
+        self.nombre = nombre
+
+pelicula1 = Peliculas("amor de gata")
+pelicula2 = Peliculas("El avatar")
+
+
+class Maria(Peliculas):
+    pass
+    def VerPeliculas():
+        pass
+        def VerPeliculas():
+            return "Maria vera la pelicula {}".format(pelicula1.nombre)
+        
+
+class Juanito(Peliculas):
+    pass
+    def VerPeliculas():
+        return "Juanito vera la pelicula {}".format(pelicula2.nombre)
+    
+
+persona1 = Maria
+
+print(persona1.VerPeliculas())

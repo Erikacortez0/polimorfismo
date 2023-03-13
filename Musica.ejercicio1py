@@ -1,0 +1,13 @@
+class Persona:
+    pass
+    def EscucharMusica():
+        return 'Pancho escucha musica electronica'
+    
+class Persona2:
+    def EscuchaMusica():
+        return 'iliana escucha msuica en ingles'
+    
+musicaElec = Persona
+musicaIngles = Persona2
+print(musicaElec.EscucharMusica())
+print(musicaIngles.EscuchaMusica())
